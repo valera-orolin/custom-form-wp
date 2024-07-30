@@ -1,0 +1,802 @@
+[30-Jul-2024 10:03:16 UTC] Email sent to: valera.orolinnew@gmail.com
+Message: This is a test message
+
+[30-Jul-2024 10:03:17 UTC] Hubspot response: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Tue, 30 Jul 2024 10:03:17 GMT
+                    [content-type] => application/json;charset=utf-8
+                    [content-length] => 358
+                    [location] => https://api.hubapi.com/crm/v3/objects/contacts/27145028553
+                    [cf-ray] => 8ab484960ac50772-MRS
+                    [cf-cache-status] => DYNAMIC
+                    [content-encoding] => gzip
+                    [strict-transport-security] => max-age=31536000; includeSubDomains; preload
+                    [vary] => origin, Accept-Encoding
+                    [access-control-allow-credentials] => false
+                    [x-content-type-options] => nosniff
+                    [x-envoy-upstream-service-time] => 310
+                    [x-evy-trace-listener] => listener_https
+                    [x-evy-trace-route-configuration] => listener_https/all
+                    [x-evy-trace-route-service-name] => envoyset-translator
+                    [x-evy-trace-served-by-pod] => fra04/hubapi-td/envoy-proxy-576d445cf9-hsx8w
+                    [x-evy-trace-virtual-host] => all
+                    [x-hubspot-correlation-id] => cf3c2bfa-064c-4b74-a8c9-83cf0cfcf13e
+                    [x-hubspot-ratelimit-daily] => 250000
+                    [x-hubspot-ratelimit-daily-remaining] => 249985
+                    [x-hubspot-ratelimit-interval-milliseconds] => 10000
+                    [x-hubspot-ratelimit-max] => 100
+                    [x-hubspot-ratelimit-remaining] => 99
+                    [x-hubspot-ratelimit-secondly] => 10
+                    [x-hubspot-ratelimit-secondly-remaining] => 9
+                    [x-request-id] => cf3c2bfa-064c-4b74-a8c9-83cf0cfcf13e
+                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=bXNmCti9yydi2WIHFvCRjTk3WHsbYiYh5ARY%2BDQZK91lXaIohMLJXoOFa8om7Ow72HegDGinzpO0gKUxvT0BE7oVLMqjgB%2BXAJ6AW4HX4saQdvelAgWO%2BjjUkvUDtAsp"}],"group":"cf-nel","max_age":604800}
+                    [nel] => {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+                    [server] => cloudflare
+                )
+
+        )
+
+    [body] => {"id":"27145028553","properties":{"createdate":"2024-07-30T10:03:16.998Z","email":"valera.orolinnew@gmail.com","firstname":"Lera","hs_all_contact_vids":"27145028553","hs_email_domain":"gmail.com","hs_is_contact":"true","hs_is_unworked":"true","hs_lifecyclestage_lead_date":"2024-07-30T10:03:16.998Z","hs_membership_has_accessed_private_content":"0","hs_object_id":"27145028553","hs_object_source":"INTEGRATION","hs_object_source_id":"3646316","hs_object_source_label":"INTEGRATION","hs_pipeline":"contacts-lifecycle-pipeline","hs_registered_member":"0","lastmodifieddate":"2024-07-30T10:03:16.998Z","lastname":"Matveyeva","lifecyclestage":"lead"},"createdAt":"2024-07-30T10:03:16.998Z","updatedAt":"2024-07-30T10:03:16.998Z","archived":false}
+    [response] => Array
+        (
+            [code] => 201
+            [message] => Created
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {"id":"27145028553","properties":{"createdate":"2024-07-30T10:03:16.998Z","email":"valera.orolinnew@gmail.com","firstname":"Lera","hs_all_contact_vids":"27145028553","hs_email_domain":"gmail.com","hs_is_contact":"true","hs_is_unworked":"true","hs_lifecyclestage_lead_date":"2024-07-30T10:03:16.998Z","hs_membership_has_accessed_private_content":"0","hs_object_id":"27145028553","hs_object_source":"INTEGRATION","hs_object_source_id":"3646316","hs_object_source_label":"INTEGRATION","hs_pipeline":"contacts-lifecycle-pipeline","hs_registered_member":"0","lastmodifieddate":"2024-07-30T10:03:16.998Z","lastname":"Matveyeva","lifecyclestage":"lead"},"createdAt":"2024-07-30T10:03:16.998Z","updatedAt":"2024-07-30T10:03:16.998Z","archived":false}
+                    [raw] => HTTP/1.1 201 Created
+Date: Tue, 30 Jul 2024 10:03:17 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 358
+Connection: close
+Location: https://api.hubapi.com/crm/v3/objects/contacts/27145028553
+CF-Ray: 8ab484960ac50772-MRS
+CF-Cache-Status: DYNAMIC
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: origin, Accept-Encoding
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 310
+x-evy-trace-listener: listener_https
+x-evy-trace-route-configuration: listener_https/all
+x-evy-trace-route-service-name: envoyset-translator
+x-evy-trace-served-by-pod: fra04/hubapi-td/envoy-proxy-576d445cf9-hsx8w
+x-evy-trace-virtual-host: all
+x-hubspot-correlation-id: cf3c2bfa-064c-4b74-a8c9-83cf0cfcf13e
+x-hubspot-ratelimit-daily: 250000
+x-hubspot-ratelimit-daily-remaining: 249985
+x-hubspot-ratelimit-interval-milliseconds: 10000
+x-hubspot-ratelimit-max: 100
+x-hubspot-ratelimit-remaining: 99
+x-hubspot-ratelimit-secondly: 10
+x-hubspot-ratelimit-secondly-remaining: 9
+x-request-id: cf3c2bfa-064c-4b74-a8c9-83cf0cfcf13e
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=bXNmCti9yydi2WIHFvCRjTk3WHsbYiYh5ARY%2BDQZK91lXaIohMLJXoOFa8om7Ow72HegDGinzpO0gKUxvT0BE7oVLMqjgB%2BXAJ6AW4HX4saQdvelAgWO%2BjjUkvUDtAsp"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+
+{"id":"27145028553","properties":{"createdate":"2024-07-30T10:03:16.998Z","email":"valera.orolinnew@gmail.com","firstname":"Lera","hs_all_contact_vids":"27145028553","hs_email_domain":"gmail.com","hs_is_contact":"true","hs_is_unworked":"true","hs_lifecyclestage_lead_date":"2024-07-30T10:03:16.998Z","hs_membership_has_accessed_private_content":"0","hs_object_id":"27145028553","hs_object_source":"INTEGRATION","hs_object_source_id":"3646316","hs_object_source_label":"INTEGRATION","hs_pipeline":"contacts-lifecycle-pipeline","hs_registered_member":"0","lastmodifieddate":"2024-07-30T10:03:16.998Z","lastname":"Matveyeva","lifecyclestage":"lead"},"createdAt":"2024-07-30T10:03:16.998Z","updatedAt":"2024-07-30T10:03:16.998Z","archived":false}
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Tue, 30 Jul 2024 10:03:17 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json;charset=utf-8
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 358
+                                        )
+
+                                    [location] => Array
+                                        (
+                                            [0] => https://api.hubapi.com/crm/v3/objects/contacts/27145028553
+                                        )
+
+                                    [cf-ray] => Array
+                                        (
+                                            [0] => 8ab484960ac50772-MRS
+                                        )
+
+                                    [cf-cache-status] => Array
+                                        (
+                                            [0] => DYNAMIC
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=31536000; includeSubDomains; preload
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => origin, Accept-Encoding
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => false
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [x-envoy-upstream-service-time] => Array
+                                        (
+                                            [0] => 310
+                                        )
+
+                                    [x-evy-trace-listener] => Array
+                                        (
+                                            [0] => listener_https
+                                        )
+
+                                    [x-evy-trace-route-configuration] => Array
+                                        (
+                                            [0] => listener_https/all
+                                        )
+
+                                    [x-evy-trace-route-service-name] => Array
+                                        (
+                                            [0] => envoyset-translator
+                                        )
+
+                                    [x-evy-trace-served-by-pod] => Array
+                                        (
+                                            [0] => fra04/hubapi-td/envoy-proxy-576d445cf9-hsx8w
+                                        )
+
+                                    [x-evy-trace-virtual-host] => Array
+                                        (
+                                            [0] => all
+                                        )
+
+                                    [x-hubspot-correlation-id] => Array
+                                        (
+                                            [0] => cf3c2bfa-064c-4b74-a8c9-83cf0cfcf13e
+                                        )
+
+                                    [x-hubspot-ratelimit-daily] => Array
+                                        (
+                                            [0] => 250000
+                                        )
+
+                                    [x-hubspot-ratelimit-daily-remaining] => Array
+                                        (
+                                            [0] => 249985
+                                        )
+
+                                    [x-hubspot-ratelimit-interval-milliseconds] => Array
+                                        (
+                                            [0] => 10000
+                                        )
+
+                                    [x-hubspot-ratelimit-max] => Array
+                                        (
+                                            [0] => 100
+                                        )
+
+                                    [x-hubspot-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 99
+                                        )
+
+                                    [x-hubspot-ratelimit-secondly] => Array
+                                        (
+                                            [0] => 10
+                                        )
+
+                                    [x-hubspot-ratelimit-secondly-remaining] => Array
+                                        (
+                                            [0] => 9
+                                        )
+
+                                    [x-request-id] => Array
+                                        (
+                                            [0] => cf3c2bfa-064c-4b74-a8c9-83cf0cfcf13e
+                                        )
+
+                                    [report-to] => Array
+                                        (
+                                            [0] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=bXNmCti9yydi2WIHFvCRjTk3WHsbYiYh5ARY%2BDQZK91lXaIohMLJXoOFa8om7Ow72HegDGinzpO0gKUxvT0BE7oVLMqjgB%2BXAJ6AW4HX4saQdvelAgWO%2BjjUkvUDtAsp"}],"group":"cf-nel","max_age":604800}
+                                        )
+
+                                    [nel] => Array
+                                        (
+                                            [0] => {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => cloudflare
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 201
+                    [protocol_version] => 1.1
+                    [success] => 1
+                    [redirects] => 0
+                    [url] => https://api.hubapi.com/crm/v3/objects/contacts/
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+
+[30-Jul-2024 10:04:36 UTC] Email sent to: valera.orolin@gmail.com
+Message: This is a test message
+
+[30-Jul-2024 10:04:36 UTC] Hubspot response: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Tue, 30 Jul 2024 10:04:36 GMT
+                    [content-type] => application/json;charset=utf-8
+                    [content-length] => 156
+                    [cf-ray] => 8ab486876b4d92cd-CPH
+                    [cf-cache-status] => DYNAMIC
+                    [strict-transport-security] => max-age=31536000; includeSubDomains; preload
+                    [vary] => origin, Accept-Encoding
+                    [access-control-allow-credentials] => false
+                    [x-content-type-options] => nosniff
+                    [x-envoy-upstream-service-time] => 80
+                    [x-evy-trace-listener] => listener_https
+                    [x-evy-trace-route-configuration] => listener_https/all
+                    [x-evy-trace-route-service-name] => envoyset-translator
+                    [x-evy-trace-served-by-pod] => fra04/hubapi-td/envoy-proxy-576d445cf9-4724b
+                    [x-evy-trace-virtual-host] => all
+                    [x-hubspot-correlation-id] => 1382f377-bf2a-4a76-aa54-c401dc7d6a19
+                    [x-hubspot-ratelimit-daily] => 250000
+                    [x-hubspot-ratelimit-daily-remaining] => 249984
+                    [x-hubspot-ratelimit-interval-milliseconds] => 10000
+                    [x-hubspot-ratelimit-max] => 100
+                    [x-hubspot-ratelimit-remaining] => 99
+                    [x-hubspot-ratelimit-secondly] => 10
+                    [x-hubspot-ratelimit-secondly-remaining] => 9
+                    [x-request-id] => 1382f377-bf2a-4a76-aa54-c401dc7d6a19
+                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=dsdM8tMNN0CEFcbjGSSkEHVEH6PeaeHzX2qPCEApf25bKtgnmdnWkzR8B%2F6YCe%2Byu%2Bv3oj5LWvwMv3MTKFiorvIO4bYadpWMtUJ%2B8O%2BfZesD5%2FbBp5h9bFs12K2zmO5V"}],"group":"cf-nel","max_age":604800}
+                    [nel] => {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+                    [server] => cloudflare
+                )
+
+        )
+
+    [body] => {"status":"error","message":"Contact already exists. Existing ID: 27138513872","correlationId":"1382f377-bf2a-4a76-aa54-c401dc7d6a19","category":"CONFLICT"}
+    [response] => Array
+        (
+            [code] => 409
+            [message] => Conflict
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {"status":"error","message":"Contact already exists. Existing ID: 27138513872","correlationId":"1382f377-bf2a-4a76-aa54-c401dc7d6a19","category":"CONFLICT"}
+                    [raw] => HTTP/1.1 409 Conflict
+Date: Tue, 30 Jul 2024 10:04:36 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 156
+Connection: close
+CF-Ray: 8ab486876b4d92cd-CPH
+CF-Cache-Status: DYNAMIC
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: origin, Accept-Encoding
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 80
+x-evy-trace-listener: listener_https
+x-evy-trace-route-configuration: listener_https/all
+x-evy-trace-route-service-name: envoyset-translator
+x-evy-trace-served-by-pod: fra04/hubapi-td/envoy-proxy-576d445cf9-4724b
+x-evy-trace-virtual-host: all
+x-hubspot-correlation-id: 1382f377-bf2a-4a76-aa54-c401dc7d6a19
+x-hubspot-ratelimit-daily: 250000
+x-hubspot-ratelimit-daily-remaining: 249984
+x-hubspot-ratelimit-interval-milliseconds: 10000
+x-hubspot-ratelimit-max: 100
+x-hubspot-ratelimit-remaining: 99
+x-hubspot-ratelimit-secondly: 10
+x-hubspot-ratelimit-secondly-remaining: 9
+x-request-id: 1382f377-bf2a-4a76-aa54-c401dc7d6a19
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=dsdM8tMNN0CEFcbjGSSkEHVEH6PeaeHzX2qPCEApf25bKtgnmdnWkzR8B%2F6YCe%2Byu%2Bv3oj5LWvwMv3MTKFiorvIO4bYadpWMtUJ%2B8O%2BfZesD5%2FbBp5h9bFs12K2zmO5V"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+
+{"status":"error","message":"Contact already exists. Existing ID: 27138513872","correlationId":"1382f377-bf2a-4a76-aa54-c401dc7d6a19","category":"CONFLICT"}
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Tue, 30 Jul 2024 10:04:36 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json;charset=utf-8
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 156
+                                        )
+
+                                    [cf-ray] => Array
+                                        (
+                                            [0] => 8ab486876b4d92cd-CPH
+                                        )
+
+                                    [cf-cache-status] => Array
+                                        (
+                                            [0] => DYNAMIC
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=31536000; includeSubDomains; preload
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => origin, Accept-Encoding
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => false
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [x-envoy-upstream-service-time] => Array
+                                        (
+                                            [0] => 80
+                                        )
+
+                                    [x-evy-trace-listener] => Array
+                                        (
+                                            [0] => listener_https
+                                        )
+
+                                    [x-evy-trace-route-configuration] => Array
+                                        (
+                                            [0] => listener_https/all
+                                        )
+
+                                    [x-evy-trace-route-service-name] => Array
+                                        (
+                                            [0] => envoyset-translator
+                                        )
+
+                                    [x-evy-trace-served-by-pod] => Array
+                                        (
+                                            [0] => fra04/hubapi-td/envoy-proxy-576d445cf9-4724b
+                                        )
+
+                                    [x-evy-trace-virtual-host] => Array
+                                        (
+                                            [0] => all
+                                        )
+
+                                    [x-hubspot-correlation-id] => Array
+                                        (
+                                            [0] => 1382f377-bf2a-4a76-aa54-c401dc7d6a19
+                                        )
+
+                                    [x-hubspot-ratelimit-daily] => Array
+                                        (
+                                            [0] => 250000
+                                        )
+
+                                    [x-hubspot-ratelimit-daily-remaining] => Array
+                                        (
+                                            [0] => 249984
+                                        )
+
+                                    [x-hubspot-ratelimit-interval-milliseconds] => Array
+                                        (
+                                            [0] => 10000
+                                        )
+
+                                    [x-hubspot-ratelimit-max] => Array
+                                        (
+                                            [0] => 100
+                                        )
+
+                                    [x-hubspot-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 99
+                                        )
+
+                                    [x-hubspot-ratelimit-secondly] => Array
+                                        (
+                                            [0] => 10
+                                        )
+
+                                    [x-hubspot-ratelimit-secondly-remaining] => Array
+                                        (
+                                            [0] => 9
+                                        )
+
+                                    [x-request-id] => Array
+                                        (
+                                            [0] => 1382f377-bf2a-4a76-aa54-c401dc7d6a19
+                                        )
+
+                                    [report-to] => Array
+                                        (
+                                            [0] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=dsdM8tMNN0CEFcbjGSSkEHVEH6PeaeHzX2qPCEApf25bKtgnmdnWkzR8B%2F6YCe%2Byu%2Bv3oj5LWvwMv3MTKFiorvIO4bYadpWMtUJ%2B8O%2BfZesD5%2FbBp5h9bFs12K2zmO5V"}],"group":"cf-nel","max_age":604800}
+                                        )
+
+                                    [nel] => Array
+                                        (
+                                            [0] => {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => cloudflare
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 409
+                    [protocol_version] => 1.1
+                    [success] => 
+                    [redirects] => 0
+                    [url] => https://api.hubapi.com/crm/v3/objects/contacts/
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+
+[30-Jul-2024 10:06:13 UTC] Email sent to: valera.orolin@gmail.com
+Message: This is a test message
+
+[30-Jul-2024 10:06:14 UTC] Hubspot response: Array
+(
+    [headers] => WpOrg\Requests\Utility\CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Tue, 30 Jul 2024 10:06:14 GMT
+                    [content-type] => application/json;charset=utf-8
+                    [content-length] => 358
+                    [location] => https://api.hubapi.com/crm/v3/objects/contacts/27139170549
+                    [cf-ray] => 8ab488e988f35fcb-MRS
+                    [cf-cache-status] => DYNAMIC
+                    [content-encoding] => gzip
+                    [strict-transport-security] => max-age=31536000; includeSubDomains; preload
+                    [vary] => origin, Accept-Encoding
+                    [access-control-allow-credentials] => false
+                    [x-content-type-options] => nosniff
+                    [x-envoy-upstream-service-time] => 299
+                    [x-evy-trace-listener] => listener_https
+                    [x-evy-trace-route-configuration] => listener_https/all
+                    [x-evy-trace-route-service-name] => envoyset-translator
+                    [x-evy-trace-served-by-pod] => fra04/hubapi-td/envoy-proxy-576d445cf9-494dt
+                    [x-evy-trace-virtual-host] => all
+                    [x-hubspot-correlation-id] => 176d5589-8699-49d2-b62a-0c8cac2ac7b1
+                    [x-hubspot-ratelimit-daily] => 250000
+                    [x-hubspot-ratelimit-daily-remaining] => 249983
+                    [x-hubspot-ratelimit-interval-milliseconds] => 10000
+                    [x-hubspot-ratelimit-max] => 100
+                    [x-hubspot-ratelimit-remaining] => 99
+                    [x-hubspot-ratelimit-secondly] => 10
+                    [x-hubspot-ratelimit-secondly-remaining] => 9
+                    [x-request-id] => 176d5589-8699-49d2-b62a-0c8cac2ac7b1
+                    [report-to] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=iveSRkaxDaFkuUMXXR%2BU4EGF%2BYb1xY6Z0nW7DvLhuMoRSsZ5gAYUwOD7RtRvWmsw6iNz0IV1iPSksfAzAKvCuzd%2BkNgdYvpsVqV%2FYmekx5LCeXDx9nOo6SMkP6Ee5MLA"}],"group":"cf-nel","max_age":604800}
+                    [nel] => {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+                    [server] => cloudflare
+                )
+
+        )
+
+    [body] => {"id":"27139170549","properties":{"createdate":"2024-07-30T10:06:14.201Z","email":"valera.orolin@gmail.com","firstname":"Valeryia","hs_all_contact_vids":"27139170549","hs_email_domain":"gmail.com","hs_is_contact":"true","hs_is_unworked":"true","hs_lifecyclestage_lead_date":"2024-07-30T10:06:14.201Z","hs_membership_has_accessed_private_content":"0","hs_object_id":"27139170549","hs_object_source":"INTEGRATION","hs_object_source_id":"3646316","hs_object_source_label":"INTEGRATION","hs_pipeline":"contacts-lifecycle-pipeline","hs_registered_member":"0","lastmodifieddate":"2024-07-30T10:06:14.201Z","lastname":"Matveyeva","lifecyclestage":"lead"},"createdAt":"2024-07-30T10:06:14.201Z","updatedAt":"2024-07-30T10:06:14.201Z","archived":false}
+    [response] => Array
+        (
+            [code] => 201
+            [message] => Created
+        )
+
+    [cookies] => Array
+        (
+        )
+
+    [filename] => 
+    [http_response] => WP_HTTP_Requests_Response Object
+        (
+            [data] => 
+            [headers] => 
+            [status] => 
+            [response:protected] => WpOrg\Requests\Response Object
+                (
+                    [body] => {"id":"27139170549","properties":{"createdate":"2024-07-30T10:06:14.201Z","email":"valera.orolin@gmail.com","firstname":"Valeryia","hs_all_contact_vids":"27139170549","hs_email_domain":"gmail.com","hs_is_contact":"true","hs_is_unworked":"true","hs_lifecyclestage_lead_date":"2024-07-30T10:06:14.201Z","hs_membership_has_accessed_private_content":"0","hs_object_id":"27139170549","hs_object_source":"INTEGRATION","hs_object_source_id":"3646316","hs_object_source_label":"INTEGRATION","hs_pipeline":"contacts-lifecycle-pipeline","hs_registered_member":"0","lastmodifieddate":"2024-07-30T10:06:14.201Z","lastname":"Matveyeva","lifecyclestage":"lead"},"createdAt":"2024-07-30T10:06:14.201Z","updatedAt":"2024-07-30T10:06:14.201Z","archived":false}
+                    [raw] => HTTP/1.1 201 Created
+Date: Tue, 30 Jul 2024 10:06:14 GMT
+Content-Type: application/json;charset=utf-8
+Content-Length: 358
+Connection: close
+Location: https://api.hubapi.com/crm/v3/objects/contacts/27139170549
+CF-Ray: 8ab488e988f35fcb-MRS
+CF-Cache-Status: DYNAMIC
+Content-Encoding: gzip
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Vary: origin, Accept-Encoding
+access-control-allow-credentials: false
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 299
+x-evy-trace-listener: listener_https
+x-evy-trace-route-configuration: listener_https/all
+x-evy-trace-route-service-name: envoyset-translator
+x-evy-trace-served-by-pod: fra04/hubapi-td/envoy-proxy-576d445cf9-494dt
+x-evy-trace-virtual-host: all
+x-hubspot-correlation-id: 176d5589-8699-49d2-b62a-0c8cac2ac7b1
+x-hubspot-ratelimit-daily: 250000
+x-hubspot-ratelimit-daily-remaining: 249983
+x-hubspot-ratelimit-interval-milliseconds: 10000
+x-hubspot-ratelimit-max: 100
+x-hubspot-ratelimit-remaining: 99
+x-hubspot-ratelimit-secondly: 10
+x-hubspot-ratelimit-secondly-remaining: 9
+x-request-id: 176d5589-8699-49d2-b62a-0c8cac2ac7b1
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=iveSRkaxDaFkuUMXXR%2BU4EGF%2BYb1xY6Z0nW7DvLhuMoRSsZ5gAYUwOD7RtRvWmsw6iNz0IV1iPSksfAzAKvCuzd%2BkNgdYvpsVqV%2FYmekx5LCeXDx9nOo6SMkP6Ee5MLA"}],"group":"cf-nel","max_age":604800}
+NEL: {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+Server: cloudflare
+
+{"id":"27139170549","properties":{"createdate":"2024-07-30T10:06:14.201Z","email":"valera.orolin@gmail.com","firstname":"Valeryia","hs_all_contact_vids":"27139170549","hs_email_domain":"gmail.com","hs_is_contact":"true","hs_is_unworked":"true","hs_lifecyclestage_lead_date":"2024-07-30T10:06:14.201Z","hs_membership_has_accessed_private_content":"0","hs_object_id":"27139170549","hs_object_source":"INTEGRATION","hs_object_source_id":"3646316","hs_object_source_label":"INTEGRATION","hs_pipeline":"contacts-lifecycle-pipeline","hs_registered_member":"0","lastmodifieddate":"2024-07-30T10:06:14.201Z","lastname":"Matveyeva","lifecyclestage":"lead"},"createdAt":"2024-07-30T10:06:14.201Z","updatedAt":"2024-07-30T10:06:14.201Z","archived":false}
+                    [headers] => WpOrg\Requests\Response\Headers Object
+                        (
+                            [data:protected] => Array
+                                (
+                                    [date] => Array
+                                        (
+                                            [0] => Tue, 30 Jul 2024 10:06:14 GMT
+                                        )
+
+                                    [content-type] => Array
+                                        (
+                                            [0] => application/json;charset=utf-8
+                                        )
+
+                                    [content-length] => Array
+                                        (
+                                            [0] => 358
+                                        )
+
+                                    [location] => Array
+                                        (
+                                            [0] => https://api.hubapi.com/crm/v3/objects/contacts/27139170549
+                                        )
+
+                                    [cf-ray] => Array
+                                        (
+                                            [0] => 8ab488e988f35fcb-MRS
+                                        )
+
+                                    [cf-cache-status] => Array
+                                        (
+                                            [0] => DYNAMIC
+                                        )
+
+                                    [content-encoding] => Array
+                                        (
+                                            [0] => gzip
+                                        )
+
+                                    [strict-transport-security] => Array
+                                        (
+                                            [0] => max-age=31536000; includeSubDomains; preload
+                                        )
+
+                                    [vary] => Array
+                                        (
+                                            [0] => origin, Accept-Encoding
+                                        )
+
+                                    [access-control-allow-credentials] => Array
+                                        (
+                                            [0] => false
+                                        )
+
+                                    [x-content-type-options] => Array
+                                        (
+                                            [0] => nosniff
+                                        )
+
+                                    [x-envoy-upstream-service-time] => Array
+                                        (
+                                            [0] => 299
+                                        )
+
+                                    [x-evy-trace-listener] => Array
+                                        (
+                                            [0] => listener_https
+                                        )
+
+                                    [x-evy-trace-route-configuration] => Array
+                                        (
+                                            [0] => listener_https/all
+                                        )
+
+                                    [x-evy-trace-route-service-name] => Array
+                                        (
+                                            [0] => envoyset-translator
+                                        )
+
+                                    [x-evy-trace-served-by-pod] => Array
+                                        (
+                                            [0] => fra04/hubapi-td/envoy-proxy-576d445cf9-494dt
+                                        )
+
+                                    [x-evy-trace-virtual-host] => Array
+                                        (
+                                            [0] => all
+                                        )
+
+                                    [x-hubspot-correlation-id] => Array
+                                        (
+                                            [0] => 176d5589-8699-49d2-b62a-0c8cac2ac7b1
+                                        )
+
+                                    [x-hubspot-ratelimit-daily] => Array
+                                        (
+                                            [0] => 250000
+                                        )
+
+                                    [x-hubspot-ratelimit-daily-remaining] => Array
+                                        (
+                                            [0] => 249983
+                                        )
+
+                                    [x-hubspot-ratelimit-interval-milliseconds] => Array
+                                        (
+                                            [0] => 10000
+                                        )
+
+                                    [x-hubspot-ratelimit-max] => Array
+                                        (
+                                            [0] => 100
+                                        )
+
+                                    [x-hubspot-ratelimit-remaining] => Array
+                                        (
+                                            [0] => 99
+                                        )
+
+                                    [x-hubspot-ratelimit-secondly] => Array
+                                        (
+                                            [0] => 10
+                                        )
+
+                                    [x-hubspot-ratelimit-secondly-remaining] => Array
+                                        (
+                                            [0] => 9
+                                        )
+
+                                    [x-request-id] => Array
+                                        (
+                                            [0] => 176d5589-8699-49d2-b62a-0c8cac2ac7b1
+                                        )
+
+                                    [report-to] => Array
+                                        (
+                                            [0] => {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=iveSRkaxDaFkuUMXXR%2BU4EGF%2BYb1xY6Z0nW7DvLhuMoRSsZ5gAYUwOD7RtRvWmsw6iNz0IV1iPSksfAzAKvCuzd%2BkNgdYvpsVqV%2FYmekx5LCeXDx9nOo6SMkP6Ee5MLA"}],"group":"cf-nel","max_age":604800}
+                                        )
+
+                                    [nel] => Array
+                                        (
+                                            [0] => {"success_fraction":0.01,"report_to":"cf-nel","max_age":604800}
+                                        )
+
+                                    [server] => Array
+                                        (
+                                            [0] => cloudflare
+                                        )
+
+                                )
+
+                        )
+
+                    [status_code] => 201
+                    [protocol_version] => 1.1
+                    [success] => 1
+                    [redirects] => 0
+                    [url] => https://api.hubapi.com/crm/v3/objects/contacts/
+                    [history] => Array
+                        (
+                        )
+
+                    [cookies] => WpOrg\Requests\Cookie\Jar Object
+                        (
+                            [cookies:protected] => Array
+                                (
+                                )
+
+                        )
+
+                )
+
+            [filename:protected] => 
+        )
+
+)
+
